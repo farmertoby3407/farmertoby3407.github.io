@@ -1,5 +1,12 @@
+header {
+    background-color: black;
+    color: LawnGreen;
+    padding: 6px;
+}
+
+
 body {
-    background-color: cyan;
+    background-image: url("background.png");
 }
 
 h1 {

@@ -1,12 +1,15 @@
 header {
-    background-color: black;
+    font-family: "Liberation Mono", monospace;
+    font-weight: bold;
+    background-color: ;
     color: LawnGreen;
     padding: 6px;
+    font-size: 20pt;
 }
 
 
 body {
-    background-image: url("background.png");
+    background-image: url("space.png");
 }
 
 h1 {

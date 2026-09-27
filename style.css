@@ -1,12 +1,13 @@
 
 body {
     background-color: darkseagreen;
+    margin-bottom: 125px;
 }
 
 
 h1 {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-left: 5px;
     margin-top: 0px;
     margin-right: 5px;
@@ -15,7 +16,7 @@ h1 {
 
 h3 {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-left: 5px;
     margin-top: 0px;
     margin-right: 5px;
@@ -119,24 +120,10 @@ img {
     width: 900px;
     margin-left: auto;
     margin-right:auto;
+    padding-bottom: 75px;
     border-style: double;
     border-color: gray;
     border-width: 8px;
     filter: drop-shadow(8px 8px darkgray);
 }
-
-@media (max-width < 1100){
-    .block {
-        margin-top: 50px;
-        background-color: lightgray;
-        padding: 6px;
-        margin-left: 0%;
-        margin-right: 0%;
-        border-style: double;
-        border-color: gray;
-        border-width: 8px;
-        filter: drop-shadow(8px 8px darkgray);
-    }
-}
-
 }

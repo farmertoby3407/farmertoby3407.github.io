@@ -19,9 +19,12 @@ h2 {
     font-family: "Liberation Mono", monospace;
     color: black;
     font-weight: bold;
+    text-decoration-line: underline;
     font-size: 16pt;
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 p {
@@ -30,12 +33,13 @@ p {
     font-size: 12pt;
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 a.nav:link {
     color: lightgray;
 }
-
 a.nav:visited {
     color: lightgray;
 }
@@ -50,8 +54,8 @@ a.nav:active {
     margin-top: 50px;
     background-color: lightgray;
     padding: 6px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-style: double;
     border-color: darkgray;
     border-width: 8px;

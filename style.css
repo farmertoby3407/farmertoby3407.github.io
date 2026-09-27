@@ -1,18 +1,59 @@
-header {
-    font-family: "Liberation Mono", monospace;
-    font-weight: bold;
-    background-color: ;
-    color: LawnGreen;
-    padding: 6px;
-    font-size: 20pt;
-}
-
 
 body {
-    background-image: url("space.png");
+    background-color: darkseagreen;
 }
 
+
 h1 {
+    color: lightgray;
+    background-color: mediumseagreen;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    border-style: double;
+    border-color: seagreen;
+}
+
+h2 {
+    font-family: "Liberation Mono", monospace;
     color: black;
-    margin-left 20px;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+p {
+    font-family: "Liberation Mono", monospace;
+    color: black;
+    font-size: 12pt;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a.nav:link {
+    color: lightgray;
+}
+
+a.nav:visited {
+    color: lightgray;
+}
+a.nav:hover {
+    color: darkgray;
+}
+a.nav:active {
+    color: gray
+}
+
+.block {
+    margin-top: 50px;
+    background-color: lightgray;
+    padding: 6px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 8px;
+}
 }

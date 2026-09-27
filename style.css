@@ -6,12 +6,14 @@ body {
 
 h1 {
     color: lightgray;
+    font-weight: bold;
     background-color: mediumseagreen;
     padding: 10px;
     margin-left: 25px;
     margin-top: 25px;
     margin-right: 25px;
     border-style: double;
+    border-width: 8px;
     border-color: seagreen;
 }
 
@@ -32,6 +34,7 @@ ul {
     font-size: 12pt;
     margin-left: 35px;
     margin-right: 35px;
+    list-style-type: square;
 }
 
 p {
@@ -53,6 +56,19 @@ a.nav:hover {
 }
 a.nav:active {
     color: gray
+}
+
+a:link {
+    color: mediumseagreen;
+}
+a:visited {
+    color: mediumseagreen;
+}
+a:hover {
+    color: darkseagreen;
+}
+a:active {
+    color: seagreen;
 }
 
 .block {

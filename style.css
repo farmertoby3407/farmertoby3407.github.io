@@ -15,6 +15,7 @@ h1 {
     border-style: double;
     border-width: 8px;
     border-color: seagreen;
+    filter: drop-shadow(8px 8px darkseagreen);
 }
 
 h2 {
@@ -22,7 +23,7 @@ h2 {
     color: black;
     font-weight: bold;
     text-decoration-line: underline;
-    font-size: 16pt;
+    font-size: 14pt;
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 25px;
@@ -31,7 +32,7 @@ h2 {
 ul {
     font-family: "Liberation Mono", monospace;
     color: black;
-    font-size: 12pt;
+    font-size: 11pt;
     margin-left: 35px;
     margin-right: 35px;
     list-style-type: square;
@@ -71,14 +72,19 @@ a:active {
     color: seagreen;
 }
 
+img {
+    filter: drop-shadow(8px 8px darkgray);
+}
+
 .block {
     margin-top: 50px;
     background-color: lightgray;
     padding: 6px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-style: double;
-    border-color: darkgray;
+    border-color: gray;
     border-width: 8px;
+    filter: drop-shadow(8px 8px darkgray);
 }
 }

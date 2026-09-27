@@ -12,6 +12,7 @@ h1 {
     margin-top: 0px;
     margin-right: 5px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px seagreen;
 }
 
 h3 {
@@ -21,6 +22,7 @@ h3 {
     margin-top: 0px;
     margin-right: 5px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px seagreen;
 }
 
 .header {
@@ -45,6 +47,7 @@ h2 {
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 25px;
+    text-shadow: 1px 1px gray;
 }
 
 ul {
@@ -71,6 +74,7 @@ li:before {
     font-size: 16pt;
     content: "➭";
     padding-right: 4px;
+    text-shadow: 1px 1px darkgray;
 }
 
 
@@ -96,16 +100,16 @@ a.nav:active {
 }
 
 a:link {
-    color: mediumseagreen;
+    color: seagreen;
 }
 a:visited {
-    color: mediumseagreen;
+    color: seagreen;
 }
 a:hover {
     color: darkseagreen;
 }
 a:active {
-    color: seagreen;
+    color: mediumseagreen;
 }
 
 img {

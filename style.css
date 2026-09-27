@@ -21,20 +21,25 @@ h2 {
     font-weight: bold;
     text-decoration-line: underline;
     font-size: 16pt;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-top: 25px;
-    margin-bottom: 25px;
+}
+
+ul {
+    font-family: "Liberation Mono", monospace;
+    color: black;
+    font-size: 12pt;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 p {
     font-family: "Liberation Mono", monospace;
     color: black;
     font-size: 12pt;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 a.nav:link {

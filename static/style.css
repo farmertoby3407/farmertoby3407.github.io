@@ -1,0 +1,132 @@
+
+body {
+    font-family: FatDSans, sans-serif;
+    background-color: darkseagreen;
+    margin-bottom: 125px;
+}
+
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px seagreen;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px seagreen;
+}
+
+.header {
+    color: lightgray;
+    background-color: mediumseagreen;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    border-style: double;
+    border-width: 8px;
+    border-color: seagreen;
+    filter: drop-shadow(8px 8px darkseagreen);
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 14pt;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    text-shadow: 1px 1px gray;
+}
+
+ul {
+    color: black;
+    font-size: 11pt;
+    margin-left: 35px;
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+<!--
+Source - https://stackoverflow.com/a/12216973
+Posted by Mike T
+Retrieved 2026-09-27, License - CC BY-SA 3.0
+-->
+
+li {
+    font-size: 11pt;
+}
+
+li:before {
+    color: seagreen;
+    font-size: 16pt;
+    content: "➭";
+    padding-right: 4px;
+    text-shadow: 1px 1px darkgray;
+}
+
+
+p {
+    color: black;
+    font-size: 12pt;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+a.nav:link {
+    color: lightgray;
+}
+a.nav:visited {
+    color: lightgray;
+}
+a.nav:hover {
+    color: darkgray;
+}
+a.nav:active {
+    color: gray
+}
+
+a:link {
+    color: seagreen;
+}
+a:visited {
+    color: seagreen;
+}
+a:hover {
+    color: darkseagreen;
+}
+a:active {
+    color: mediumseagreen;
+}
+
+img {
+    filter: drop-shadow(8px 8px darkgray);
+}
+
+
+
+.block {
+    margin-top: 50px;
+    background-color: lightgray;
+    padding: 6px;
+    width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 75px;
+    border-style: double;
+    border-color: gray;
+    border-width: 8px;
+    filter: drop-shadow(8px 8px darkgray);
+}
+}

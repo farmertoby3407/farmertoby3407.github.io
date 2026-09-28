@@ -69,6 +69,10 @@ li {
     font-size: 11pt;
 }
 
+li.sub {
+    margin-left: 0px;
+}
+
 li:before {
     color: seagreen;
     font-size: 16pt;

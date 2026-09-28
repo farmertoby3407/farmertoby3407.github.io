@@ -1,5 +1,6 @@
 
 body {
+    font-family: Ubuntu Mono, Courier New, monospace;
     background-color: darkseagreen;
     margin-bottom: 125px;
 }
@@ -39,7 +40,6 @@ h3 {
 }
 
 h2 {
-    font-family: "Liberation Mono", monospace;
     color: black;
     font-weight: bold;
     text-decoration-line: underline;
@@ -51,7 +51,6 @@ h2 {
 }
 
 ul {
-    font-family: "Liberation Mono", monospace;
     color: black;
     font-size: 11pt;
     margin-left: 20px;
@@ -129,5 +128,4 @@ img {
     border-color: gray;
     border-width: 8px;
     filter: drop-shadow(8px 8px darkgray);
-}
 }

@@ -112,7 +112,26 @@ img {
     filter: drop-shadow(8px 8px darkgray);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
 
+img.display-grid {
+    width: 200px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.display {
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .block {
     margin-top: 50px;

@@ -1,8 +1,9 @@
 
 body {
-    font-family: Ubuntu Mono, Courier New, monospace;
-    background-color: darkseagreen;
-    margin-bottom: 125px;
+    font-family: JetBrains Mono, Courier New, monospace;
+    height: 100px;
+    background-image: linear-gradient(to top, darkseagreen 50%, #8cb98c 50%);
+    background-size: 40px 5%;
 }
 
 
@@ -40,12 +41,10 @@ h3 {
 h2 {
     color: black;
     font-weight: bold;
-    text-decoration-line: underline;
     font-size: 14pt;
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 25px;
-    text-shadow: 1px 1px gray;
 }
 
 ul {
@@ -145,4 +144,5 @@ img.display {
     border-color: gray;
     border-width: 8px;
     filter: drop-shadow(8px 8px darkgray);
+    margin-bottom: 125px;
 }

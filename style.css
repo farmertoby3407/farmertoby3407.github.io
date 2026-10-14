@@ -16,13 +16,14 @@ h1 {
     text-shadow: 2px 2px seagreen;
 }
 
-h3 {
+.head {
     font-weight: bold;
     margin-left: 5px;
     margin-top: 0px;
     margin-right: 5px;
     margin-bottom: 0px;
     text-shadow: 2px 2px seagreen;
+    font-size: 12pt;
 }
 
 .header {

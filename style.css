@@ -1,6 +1,6 @@
 
 body {
-    font-family: JetBrains Mono, Courier New, monospace;
+    font-family: "JetBrains Mono", "Courier New", monospace;
     background-image: linear-gradient(to top, darkseagreen 50%, #8ab78a 50%);
     background-size: 100% 16px;
     margin-bottom: 125px;
@@ -75,7 +75,7 @@ li:before {
 
 
 p {
-    font-family: "Liberation Mono", monospace;
+    font-family: "JetBrains Mono", "Liberation mono", monospace;
     color: black;
     font-size: 12pt;
     margin-left: 35px;

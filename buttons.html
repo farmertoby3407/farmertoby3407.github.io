@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<title>buttons</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+</head>
+
+<script>
+    function getRandomInt(min, max) {
+  const minCeiled = Math.ceil(min);
+  const maxFloored = Math.floor(max);
+  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // the maximum is exclusive and the minimum is inclusive
+}
+</script>
+
+<body>
+<div class="block">
+
+<div class="header">
+<a href="/index.html">
+<img src="/images/furries/tobert.png" onmouseover="this.src='/images/furries/tobert-pet.png';var audio;if(getRandomInt(0, 100) == 67){audio = new Audio('/sounds/rahh.mp3');}else{audio = new Audio('/sounds/mrow.mp3');}audio.play();" onmouseout="this.src='/images/furries/tobert.png';" style="width:70px;float:left;padding-right:20px;filter:drop-shadow(4px 4px seagreen);" alt="kitty face" title="go back home">
+</a>
+<a href="/index.html" class="nav" style="text-decoration-line:none;" title="go back home">
+<h1>tobert.men</h1>
+</a>
+<span class="head">[<a href="/pictures.html" class="nav">pictures</a>][<a href="/furries.html" class="nav">my drawings</a>][<a href="/buttons.html" class="nav">buttons</a>][<a href="/music-rec.html" class="nav">my favorite music</a>]<br>[➥ <a href="https://calschwick.net" class="nav">calschwick.net</a>][➥ <a href="https://ahx2.cc" class="nav">ahx2.cc</a>]</span>
+<div style="clear:both;"></div>
+</div>
+<h2>buttons</h2>
+<p>anything that is a button or has to do with buttons goes here :3</p>
+<img src="/images/furry-button.jpeg" class="display-grid" title="a furry button i got from frc 2181 gears">
+<br>
+<h2>website buttons</h2>
+<p>you should visit my friends websites</p>
+<a href="https://ahx2.cc" style="margin-left: 50px;" title="ahumanhuman (ahx2.cc)" alt="ahx2.cc"><img src="https://ahx2.cc/badge.gif"></a>
+<br>
+<p>mine (add it to your website pls)</p>
+<a href="https://tobert.men" style="margin-left: 50px;" title="tobert (tobert.men)" alt="tobert.men"><img src="/icons/button.png"></a>
+</body>
+</div>
+</html>
